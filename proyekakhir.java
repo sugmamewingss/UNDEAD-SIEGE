@@ -1,5 +1,3 @@
-package SATU.latihan;
-
 import java.util.*;
 import javax.swing.JOptionPane;
 
@@ -369,7 +367,7 @@ public class proyekakhir {
             critical = proyekmethod2.gamble(critical, crit);
 
             int hasilgiliranplayer[] = proyekmethod2.giliranplayer(nama, hp[0], hp[1], hp[2], hp[3], hp[4],
-                    banyakzombie, dmg[0], critical, pengobatan, heal, crit);
+                    banyakzombie, dmg[0], critical, pengobatan, heal, crit, score);
 
             hp[0] = hasilgiliranplayer[0];
             hp[1] = hasilgiliranplayer[1];
