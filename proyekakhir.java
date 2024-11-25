@@ -9,8 +9,8 @@ public class proyekakhir {
         int dmg[] = new int[] { 2, 5, 7, 15, 20 };
         int crit = 0;
         int score = 0;
-        int pengobatan = 3;
-        int heal = 20;
+        int pengobatan = 5;
+        int heal = 40;
         int banyakzombie = 0;
         boolean critical = false;
 
