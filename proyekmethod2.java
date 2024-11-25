@@ -1,5 +1,3 @@
-package SATU.latihan;
-
 import java.util.Random;
 import java.util.Scanner;
 
@@ -92,12 +90,13 @@ public class proyekmethod2 {
     }
 
     public static int[] giliranplayer(String nama, int hp, int wzombie, int nzombie, int pzombie, int gzombie,
-            int banyakzombie, int dmg, boolean critical, int pengobatan, int heal, int crit) {
+            int banyakzombie, int dmg, boolean critical, int pengobatan, int heal, int crit, int score) {
 
         System.out.println("");
         System.out.println("Giliranmu, " + nama + "!");
         System.out.println("1. Serang");
         System.out.println("2. Pengobatan");
+        System.out.println("3. Exit (Pertimbangkan dengan bijak!)");
 
         Scanner input = new Scanner(System.in);
         System.out.print("Pilih aksi: ");
@@ -175,6 +174,26 @@ public class proyekmethod2 {
                     System.out.println("Kamu tidak memiliki pengobatan!");
                 }
                 break;
+
+            case 3:
+                System.out.println("");
+                System.out.println("Kamu yakin ingin keluar?");
+
+                boolean exit = true;
+                while (exit) {
+                    System.out.println("");
+                    System.out.println("Ketik EXIT untuk keluar");
+                    System.out.println("");
+                    System.out.println("System: ");
+                    String keluar = input.next();
+                    if (keluar.equalsIgnoreCase("EXIT")) {
+                        gameover(score);
+                        System.exit(0);
+                    } else {
+                        System.out.println("");
+                        System.out.println("Masukkan perintah yang benar!");
+                    }
+                }
 
             default:
                 System.out.println("Pilihan tidak valid! Giliranmu dilewatkan.");
