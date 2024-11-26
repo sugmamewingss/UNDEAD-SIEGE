@@ -10,7 +10,7 @@ public class proyekakhir {
         int crit = 0;
         int score = 0;
         int pengobatan = 5;
-        int heal = 40;
+        int heal = 50;
         int banyakzombie = 0;
         boolean critical = false;
 
