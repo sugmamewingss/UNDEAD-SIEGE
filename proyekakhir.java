@@ -77,7 +77,7 @@ public class proyekakhir {
             else if (senjata.equals("2")) {
                 System.out.println("");
                 System.out.println("Bakri: Jika kamu memilih mini dagger, kamu akan mendapatkan atribut berupa:");
-                System.out.println("Kelebihan: dmg + 8");
+                System.out.println("Kelebihan: dmg + 12");
                 System.out.println("Kekurangan: Tidak ada penambahan atribut lainnya pada player selain dmg");
                 System.out
                         .println(
@@ -107,7 +107,7 @@ public class proyekakhir {
             else if (senjata.equals("3")) {
                 System.out.println("");
                 System.out.println("Bakri: Jika kamu memilih Helmet + Vest, kamu akan mendapatkan atribut berupa:");
-                System.out.println("Kelebihan: HP + 50% darah player saat ini");
+                System.out.println("Kelebihan: HP + 100% darah player saat ini");
                 System.out.println("Kekurangan: Tidak ada penambahan atribut lainnya pada player selain Hp");
                 System.out
                         .println(
@@ -123,7 +123,7 @@ public class proyekakhir {
                 if (pendapat.equals("1")) {
                     System.out.println("Bakri: Baiklah, semoga kamu beruntung!");
                     System.out.println("");
-                    hp[0] += 80;
+                    hp[0] += 100;
                     awalan = false;
                 }
 
