@@ -387,6 +387,7 @@ public class proyekakhir {
             hp[4] = hasilcekzombiemati[3];
             banyakzombie = hasilcekzombiemati[4];
             score = hasilcekzombiemati[5];
+            pengobatan = hasilcekzombiemati[6];
 
             proyekmethod2.hpstatus(hp[0]);
 
