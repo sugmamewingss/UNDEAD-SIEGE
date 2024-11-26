@@ -192,7 +192,7 @@ public class proyekakhir {
                     System.out.println("Atribut yang didapatkan: SHADOWBLADE PRECISION");
                     System.out.println("Penjelasan:");
                     System.out.println(
-                            "SHADOWBLADE PRECISION: Menambah chance critical dari setiap serangan yang diberikan sebanyak 10%");
+                            "SHADOWBLADE PRECISION: Menambah chance critical dari setiap serangan yang diberikan sebanyak 30%");
                     System.out.println("");
                     System.out.println("Yakin mau pilih ini?");
                     System.out.println("1. Ya");
@@ -219,7 +219,7 @@ public class proyekakhir {
                     System.out.println("Atribut yang didapatkan: IRONCLAD RESILIENCE");
                     System.out.println("Penjelasan:");
                     System.out.println(
-                            "IRONCLAD RESILIENCE: Menambah Hp player sebanyak 30");
+                            "IRONCLAD RESILIENCE: Menambah Hp player sebanyak 40");
                     System.out.println("");
                     System.out.println("Yakin mau pilih ini?");
                     System.out.println("1. Ya");
