@@ -1,3 +1,5 @@
+package SATU.latihan;
+
 import java.util.Random;
 import java.util.Scanner;
 
@@ -202,7 +204,8 @@ public class proyekmethod2 {
         return new int[] { hp, wzombie, nzombie, pzombie, gzombie, pengobatan };
     }
 
-    public static int[] cekzombiemati(int wzombie, int nzombie, int pzombie, int gzombie, int banyakzombie, int score) {
+    public static int[] cekzombiemati(int wzombie, int nzombie, int pzombie, int gzombie, int banyakzombie, int score,
+            int pengobatan) {
         if (wzombie <= 0) {
             banyakzombie--;
             score += 2;
@@ -217,6 +220,7 @@ public class proyekmethod2 {
             banyakzombie--;
             score += 10;
             pzombie = 1;
+            pengobatan += 1;
             System.out.println("Zombie terinfeksi telah mati!");
         } else if (gzombie <= 0) {
             banyakzombie--;
@@ -227,7 +231,7 @@ public class proyekmethod2 {
             score += 0;
         }
 
-        return new int[] { wzombie, nzombie, pzombie, gzombie, banyakzombie, score };
+        return new int[] { wzombie, nzombie, pzombie, gzombie, banyakzombie, score, pengobatan };
     }
 
     public static boolean turnoff(boolean permainan) {
