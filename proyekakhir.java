@@ -1,3 +1,5 @@
+package SATU.latihan;
+
 import java.util.*;
 import javax.swing.JOptionPane;
 
@@ -376,7 +378,8 @@ public class proyekakhir {
             hp[4] = hasilgiliranplayer[4];
             pengobatan = hasilgiliranplayer[5];
 
-            int hasilcekzombiemati[] = proyekmethod2.cekzombiemati(hp[1], hp[2], hp[3], hp[4], banyakzombie, score);
+            int hasilcekzombiemati[] = proyekmethod2.cekzombiemati(hp[1], hp[2], hp[3], hp[4], banyakzombie, score,
+                    pengobatan);
 
             hp[1] = hasilcekzombiemati[0];
             hp[2] = hasilcekzombiemati[1];
