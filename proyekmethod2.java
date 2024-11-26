@@ -186,7 +186,7 @@ public class proyekmethod2 {
                     System.out.println("");
                     System.out.println("Ketik EXIT untuk keluar");
                     System.out.println("");
-                    System.out.println("System: ");
+                    System.out.print("System: ");
                     String keluar = input.next();
                     if (keluar.equalsIgnoreCase("EXIT")) {
                         gameover(score);
