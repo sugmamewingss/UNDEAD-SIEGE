@@ -268,7 +268,7 @@ public class proyekmethod2 {
 
     public static boolean gamble(boolean critical, int crit) {
         Random gamble = new Random();
-        int krit = gamble.nextInt(10);
+        int krit = gamble.nextInt(10)+1;
         if (krit <= crit) {
             critical = crittrue(critical);
         } else {
