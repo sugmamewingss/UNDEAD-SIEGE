@@ -202,7 +202,7 @@ public class proyekakhir {
                     if (misalkan2.equals("1")) {
                         System.out.println("");
                         System.out.println("SELAMAT KAMU TELAH MENYAMBUT SHADOW WARLORD!");
-                        crit += 1;
+                        crit += 3;
                         skilllain = false;
                         break;
                     } else if (misalkan2.equals("2")) {
@@ -229,7 +229,7 @@ public class proyekakhir {
                     if (misalkan3.equals("1")) {
                         System.out.println("");
                         System.out.println("SELAMAT KAMU TELAH MENYAMBUT RAVAGER!");
-                        hp[0] += 30;
+                        hp[0] += 40;
                         skilllain = false;
                         break;
                     } else if (misalkan3.equals("2")) {
