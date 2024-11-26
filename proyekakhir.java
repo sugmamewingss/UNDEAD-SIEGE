@@ -93,7 +93,7 @@ public class proyekakhir {
                 if (pendapat.equals("1")) {
                     System.out.println("Bakri: Baiklah, semoga kamu beruntung!");
                     System.out.println("");
-                    dmg[0] += 8;
+                    dmg[0] += 12;
                     awalan = false;
                 }
 
@@ -123,7 +123,7 @@ public class proyekakhir {
                 if (pendapat.equals("1")) {
                     System.out.println("Bakri: Baiklah, semoga kamu beruntung!");
                     System.out.println("");
-                    hp[0] += 50;
+                    hp[0] += 80;
                     awalan = false;
                 }
 
