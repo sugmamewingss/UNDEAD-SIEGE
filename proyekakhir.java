@@ -51,7 +51,7 @@ public class proyekakhir {
                 System.out
                         .println(
                                 "Penjelasan: Pistol ini adalah satu-satunya senjata yang kamu dapatkan di awal permainan.");
-                System.out.println("(Jadi, pergunakan dengan baik!");
+                System.out.println("(Jadi, pergunakan dengan baik!)");
                 System.out.println("");
                 System.out.println("Kamu yakin ingin memilih ini?");
                 System.out.println("1. Ya");
