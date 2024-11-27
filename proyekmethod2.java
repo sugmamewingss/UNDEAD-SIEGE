@@ -91,8 +91,8 @@ public class proyekmethod2 {
         return new int[] { hp, dwzombie, dnzombie, dpzombie, dgzombie };
     }
 
-    public static int[] giliranplayer(String nama, int hp, int wzombie, int nzombie, int pzombie, int gzombie,
-            int banyakzombie, int dmg, boolean critical, int pengobatan, int heal, int crit, int score) {
+    public static int[] giliranplayer(int hp, int wzombie, int nzombie, int pzombie, int gzombie,
+            int banyakzombie, int dmg, boolean critical, int pengobatan, int heal, int crit, int score, String nama) {
 
         System.out.println("");
         System.out.println("Giliranmu, " + nama + "!");
@@ -226,6 +226,7 @@ public class proyekmethod2 {
             banyakzombie--;
             score += 15;
             gzombie = 1;
+            pengobatan += 2;
             System.out.println("GARGANTUAR ZOMBIE telah mati!");
         } else {
             score += 0;
@@ -268,7 +269,7 @@ public class proyekmethod2 {
 
     public static boolean gamble(boolean critical, int crit) {
         Random gamble = new Random();
-        int krit = gamble.nextInt(10)+1;
+        int krit = gamble.nextInt(10) + 1;
         if (krit <= crit) {
             critical = crittrue(critical);
         } else {
