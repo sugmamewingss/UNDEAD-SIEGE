@@ -351,7 +351,7 @@ public class proyekakhir {
             int hasilgiliranlawan[] = proyekmethod2.giliranlawan(hp[0], hp[1], hp[2], hp[3], hp[4], dmg[1], dmg[2],
                     dmg[3], dmg[4]);
             hp[0] = hasilgiliranlawan[0];
-            proyekmethod2.hpstatus(hp[0]); // ini untuk update nilai hp tiap ada turn aksi lawan
+            proyekmethod2.hpstatus(hp[0]);
             proyekmethod2.status(hp[0], dmg[0], crit, nama, pengobatan);
 
             if (hp[0] <= 0) {
@@ -368,8 +368,8 @@ public class proyekakhir {
 
             critical = proyekmethod2.gamble(critical, crit);
 
-            int hasilgiliranplayer[] = proyekmethod2.giliranplayer(nama, hp[0], hp[1], hp[2], hp[3], hp[4],
-                    banyakzombie, dmg[0], critical, pengobatan, heal, crit, score);
+            int hasilgiliranplayer[] = proyekmethod2.giliranplayer(hp[0], hp[1], hp[2], hp[3], hp[4],
+                    banyakzombie, dmg[0], critical, pengobatan, heal, crit, score, nama);
 
             hp[0] = hasilgiliranplayer[0];
             hp[1] = hasilgiliranplayer[1];
