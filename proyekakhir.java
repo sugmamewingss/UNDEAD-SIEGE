@@ -357,7 +357,7 @@ public class proyekakhir {
             if (hp[0] <= 0) {
                 System.out.println("");
                 System.out.println("ASTAGA! " + nama + ", KAMU TIDAK APA APA?! HEY " + nama + ", BANGUNLAH!");
-                System.out.println("*" + nama + "mendengar suara itu mulai samar - samar...");
+                System.out.println("*" + nama + " mendengar suara itu mulai samar - samar...");
                 System.out.println("");
                 System.out.println("");
                 System.out.println("Hingga kamu sadari, kamu telah sepenuhnya kehilangan kesadaranmu...");
