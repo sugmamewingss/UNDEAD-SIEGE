@@ -21,7 +21,7 @@ public class proyekmethod2 {
             System.out.println("Kamu melihat ada " + banyakzombie + " zombie biasa muncul di depanmu!");
         } else if (zombieterus == 3) {
             banyakzombie += 1;
-            pzombie += 7;
+            pzombie += 13;
             System.out.println("");
             System.out.println("Kamu melihat ada " + banyakzombie + " zombie terinfeksi muncul di depanmu!");
         } else if (zombieterus == 4) {
@@ -213,7 +213,7 @@ public class proyekmethod2 {
             System.out.println("Zombie lemah telah mati!");
         } else if (nzombie <= 0) {
             banyakzombie--;
-            score += 4;
+            score += 5;
             nzombie = 1;
             System.out.println("Zombie biasa telah mati!");
         } else if (pzombie <= 0) {
